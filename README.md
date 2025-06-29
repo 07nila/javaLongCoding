@@ -1,31 +1,17 @@
+# 🏢 Smart Office Room Management System
+
 A simple Java console application to manage office room bookings, detect occupancy, and automate AC/lights based on usage.
 
-FEATURES
+##  Features
 
-Book and cancel room reservations
+- Book and cancel room reservations  
+- Detect occupancy and automate AC/Lights  
+- Auto-release unoccupied booked rooms  
+- Display room status in real-time  
 
-Detect occupancy and automate AC/Lights
+##  How to Run
 
-Auto-release unoccupied booked rooms
-
-Display room status in real-time
-
-
-
-HOW TO RUN
-
-Clone the repo
-
-Compile the files:
-javac Main.java OfficeFacility.java Room.java
-
-Run the program:
-java Main
-
-STRUCTURE & FLOW
-
-Main.java – User interface
-
-OfficeFacility.java – Room management logic
-
-Room.java – Room data and automation simulation
+1. **Clone the repo**
+2. **Compile the files**  
+   ```bash
+   javac Main.java OfficeFacility.java Room.java
